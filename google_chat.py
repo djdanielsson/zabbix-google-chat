@@ -91,7 +91,7 @@ class ChatSender:
                 "sections": [
                   { "widgets": [
                     { "keyValue": {
-                        "topLabel": "Alarme",
+                        "topLabel": "Alarm",
                         "content": trigger_name,
                         "contentMultiline": "true"
                       }
