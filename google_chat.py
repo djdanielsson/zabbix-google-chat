@@ -19,9 +19,9 @@ import configparser
 class ChatSender:
     INI_FILE = '/usr/lib/zabbix/alertscripts/google_chat.ini'
 
-    PROBLEM_IMG = 'https://png.pngtree.com/svg/20161208/status_warning_336325.png'
-    ACK_IMG = 'https://static1.squarespace.com/static/549db876e4b05ce481ee4649/t/54a47a31e4b0375c08400709/1472574912591/form-3.png'
-    RESOLVED_IMG = 'https://image.flaticon.com/icons/png/128/291/291201.png'
+    PROBLEM_IMG = 'https://raw.githubusercontent.com/djdanielsson/zabbix-google-chat/master/images/ZV3.stop.PR.75x75.png'
+    ACK_IMG = 'https://raw.githubusercontent.com/djdanielsson/zabbix-google-chat/master/images/ZV3.alarm.MA.75x75.png'
+    RESOLVED_IMG = 'https://raw.githubusercontent.com/djdanielsson/zabbix-google-chat/master/images/ZV3.item.OK.75x75.png'
 
     def __init__(self, webhook_name):
         cp = configparser.RawConfigParser()
