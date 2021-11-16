@@ -1,4 +1,6 @@
 # zabbix-google-chat
+Updated to call python3 and translated (by google) to English
+
 Python script to send Zabbix notifications to Hangouts Chat (G Suite).
 
 Guidelines on how to use this code are available at:
